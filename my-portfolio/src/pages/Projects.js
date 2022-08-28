@@ -4,44 +4,6 @@ import "../styles/Projects.css"
 import { ProjectList } from '../helpers/ProjectList'
 
 
-
-
-//  function Projects() {
-//   return (
-//     <div className="projects">
-//       <h1> My Projects</h1>
-//       <div classname="projectList">
-      
-
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Projects;
-
-
-// function Projects() {
-//   return (
-//     <div className="projects">
-//       <h1> My Personal Projects</h1>
-//       <div className="projectList">
-//         {ProjectList.map((project, idx) => {
-//           return (
-//             <><container></container><><ProjectItem id={idx} name={project.name} image={project.image} />
-//               <button> Hello</button></></>
-            
-//           );
-//         })}
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Projects;
-
-
-
 import Proj1 from '../assets/proj1.jpeg';
 import Proj2 from '../assets/proj2.jpeg';
 import Proj3 from '../assets/proj3.jpeg';
@@ -56,7 +18,7 @@ const data = [
     image: Proj1,
     title: 'Ecommerce',
     github: 'https://github.com/evelynlangarica/Ecommerce-version-2.git',
-    demo: ''
+    demo: 'https://main.d1mecpdy0xntmm.amplifyapp.com/'
   },
 
   {
@@ -80,7 +42,7 @@ const data = [
     image: Proj4,
     title: 'Travel Website',
     github: 'https://github.com/evelynlangarica/Gateway-Revision-Project.git',
-    demo: ''
+    demo: 'https://main.d18t90y55eyd3e.amplifyapp.com/'
   },
 
   {
@@ -88,7 +50,7 @@ const data = [
     image: Proj5,
     title: 'Calculator',
     github: 'https://github.com/evelynlangarica/CalculatorSelfProject.git',
-    demo: ''
+    demo: 'https://main.d1nx6y7m74ffd8.amplifyapp.com/'
   },
   
   {
@@ -96,7 +58,7 @@ const data = [
     image: Proj6,
     title: 'Netflix Redesign',
     github: 'https://github.com/SammieStephenson/netflix-clone2.git',
-    demo: ''
+    demo: 'https://main.d1zo0b1ozl1ups.amplifyapp.com/'
   },
 
 ]
@@ -105,8 +67,10 @@ const data = [
 const Projects =()=>{
     return (
         <section id='portfolio'>
+          <div className="port">
             <h5>My Recent Work</h5>
             <h2>Portfolio</h2>
+            </div>
 
             <div className="container portfolio_container">
                 {

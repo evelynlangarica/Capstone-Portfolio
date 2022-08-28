@@ -45,7 +45,7 @@ input,textarea{
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    background: rgb(147, 147, 176);
+    background: #895575;
     border: 2px solid var(--color-primary-variant);
     resize: none;
     justify-content: center;
@@ -60,47 +60,8 @@ input,textarea{
     
 
 }
-/* .btn-primary{
-    background-color: #4CAF50; 
-    border: none;
-    color: white;
-    padding: 16px;
-    text-align: center;
-    text-decoration: none;
-    display: grid;
-    font-size: 16px;
-  } */
 
 
-
-
-
-  /*B
-  uttu*/
-
-/* 
-  .btn-primary{
-    padding: 15px 25px;
-    font-size: 20px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background-color: purple;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-  }
-
-  .btn-primary:hover
-  {background-color: #68549a}
-
-
-  .btn-primary:active{
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  } */
 
 
 
@@ -123,7 +84,8 @@ input,textarea{
     font-size: 25px;
     color: purple;
     padding: 20px 50px;
-    border: 3px solid #9575cd;
+    /* border: 3px solid #9575cd; */
+    border: 3px solid #2c041C;
     position: relative;
     position: absolute;
     top: 50%;
@@ -158,4 +120,12 @@ input,textarea{
 .btn-primary:hover::after{
     width: calc(100% + 27px);
     height: calc(100% + 27px);
+}
+
+@media screen and (max-width: 768px) {
+    .btn-primary {
+        
+        height:50px;
+        font-size:15px;
+    }
 }
